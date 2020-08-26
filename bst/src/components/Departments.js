@@ -12,6 +12,7 @@ export class Departments extends Component{
     componentDidMount(){
         this.refleshlist();
     }
+    //fake data
     refleshlist()
     {
         this.setState({
