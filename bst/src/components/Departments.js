@@ -18,12 +18,16 @@ export class Departments extends Component{
     componentDidMount(){
         this.refleshlist();
     }
+<<<<<<< HEAD
 
     componentDidUpdate(){
         this.refleshlist();
     }
 
     //connection with API
+=======
+    //fake data
+>>>>>>> 8147208d882e015cf9d7fedc3e5204845caad8b2
     refleshlist()
     {
         fetch('http://localhost:58127/api/Department')
